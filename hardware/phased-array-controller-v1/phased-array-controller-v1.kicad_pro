@@ -416,13 +416,29 @@
         "uuid": "05e103ed-0a35-44f1-8842-296348e25e72"
       }
     ],
-    "used_designators": "#PWR1-10,IC1-5,R1-8,J1-2,U1-4",
+    "used_designators": "#PWR1-103,IC1-6,R1-90,J1-9,U1-4,U6-46",
     "variants": []
   },
   "sheets": [
     [
       "05e103ed-0a35-44f1-8842-296348e25e72",
       "phased-array-controller-v1"
+    ],
+    [
+      "296282a4-5b6b-4ece-b0d0-55594642cd1a",
+      "Element1-4"
+    ],
+    [
+      "517a5d6d-0922-4d01-aa95-9ea81b10c009",
+      "Element5-8"
+    ],
+    [
+      "b225e93a-be6d-48bf-b71e-bf48867c8b9d",
+      "Element9-12"
+    ],
+    [
+      "e6faa3f3-f542-4323-ba03-b524edf4a070",
+      "Element13-16"
     ]
   ],
   "text_variables": {},

@@ -191,629 +191,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "phased-array:SKY13330-397LF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 5.842 14.732 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Value" "SKY13330-397LF"
-				(at 11.684 13.462 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Footprint" "SKY13330397LF"
-				(at 29.21 -84.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/601-700/SKY13330_397LF_201407E.pdf"
-				(at 29.21 -184.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "RF Switch ICs .1-6.0GHz SP2T IL .6dB @ 6GHz"
-				(at 13.97 17.272 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1"
-				(at 29.21 -384.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "873-SKY13330-397LF"
-				(at 29.21 -484.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SKY13330-397LF?qs=WMHGlxXAKT9Ek7RwoEie1g%3D%3D"
-				(at 29.21 -584.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Skyworks"
-				(at 29.21 -684.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SKY13330-397LF"
-				(at 29.21 -784.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "SKY13330-397LF_0_1"
-				(polyline
-					(pts
-						(xy 9.398 7.62) (xy 12.192 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 12.446 7.62)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 7.874) (xy 13.716 8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 14.478 10.16) (xy 14.478 9.144)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 14.478 8.89)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 14.478 6.35)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 14.478 5.08) (xy 14.478 6.096)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.002 10.16) (xy 14.478 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.002 5.08) (xy 14.478 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SKY13330-397LF_1_1"
-				(rectangle
-					(start 5.08 12.7)
-					(end 20.32 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 0)
-					(length 2.54)
-					(name "RF1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 10.16 180)
-					(length 2.54)
-					(name "RF3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "CTRL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 90)
-					(length 2.54)
-					(name "ENABLE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 90)
-					(length 2.54)
-					(name "VBATT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 5.08 180)
-					(length 2.54)
-					(name "RF2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -5.08 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "phased-array:WP4U+"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1307,237 +684,249 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 190.5 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ca01345-2d73-47a5-a92d-09b0b33d4569")
-	)
-	(junction
-		(at 190.5 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82388ec6-40a1-4c73-81c4-e2efc6d7e89d")
-	)
-	(junction
-		(at 185.42 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f62bb0aa-f3d0-49f6-b90e-4e8dafed8b19")
-	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 109.22 86.36)
+			(xy 114.3 63.5) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a104a55-9e6a-428e-892c-282eba4d2b4d")
+		(uuid "03e4e461-b3a6-4ace-8c6e-0cc843cf6d6b")
 	)
 	(wire
 		(pts
-			(xy 173.99 30.48) (xy 173.99 55.88)
+			(xy 114.3 68.58) (xy 127 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d1013bf-f259-433d-a24f-c4ba2cd12a9f")
+		(uuid "0e2d2e01-b3a6-4381-ba41-f89fb0f923fd")
 	)
 	(wire
 		(pts
-			(xy 105.41 106.68) (xy 105.41 111.76)
+			(xy 78.74 63.5) (xy 83.82 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14ba81b9-5221-41ac-b338-6984ce72a5cf")
+		(uuid "1fb95f4f-471d-4625-8af8-4d5e0487f435")
 	)
 	(wire
 		(pts
-			(xy 93.98 111.76) (xy 101.6 111.76)
+			(xy 68.58 139.7) (xy 83.82 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d9f316d-4731-4e3d-9388-5260fcd5c11d")
+		(uuid "26cd42c1-4c68-4b02-b3d7-1eb476613254")
 	)
 	(wire
 		(pts
-			(xy 190.5 44.45) (xy 190.5 45.72)
+			(xy 114.3 96.52) (xy 127 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "274fd6eb-2163-4cbc-97f5-d5932abcb565")
+		(uuid "2779c058-cf2e-41a3-befb-b321ecf8c658")
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 101.6 60.96)
+			(xy 114.3 20.32) (xy 127 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "461d099f-020e-4558-be5f-289afc159b03")
+		(uuid "30054bad-4cca-4897-9dd7-7929e1b3cc7d")
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 105.41 86.36)
+			(xy 78.74 30.48) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4aab7a66-11d5-49e9-83cc-34367486f845")
+		(uuid "3e552239-415d-4ff9-b00f-46fa2089ae25")
 	)
 	(wire
 		(pts
-			(xy 187.96 43.18) (xy 190.5 43.18)
+			(xy 68.58 40.64) (xy 68.58 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77f6f28e-2c94-4c2a-8587-ad16212b5278")
+		(uuid "3f76cf53-8f49-408c-a51d-5def185fd98d")
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 101.6 137.16)
+			(xy 114.3 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7be128be-7125-4e49-87a1-16473d01b12f")
+		(uuid "493e6d5c-4e43-46d3-b81d-7532010c7cd2")
 	)
 	(wire
 		(pts
-			(xy 185.42 44.45) (xy 185.42 43.18)
+			(xy 73.66 101.6) (xy 83.82 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ccc7b9d-6d93-4a54-9407-b3cdc036eca5")
+		(uuid "6349b54a-75c2-4d55-971d-1acee25d2d15")
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 101.6 96.52)
+			(xy 68.58 25.4) (xy 83.82 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90902af2-07b6-487a-aea2-aaa0ea8e62e7")
+		(uuid "638aa175-6ab4-49dd-bff0-a0e2c6a8fbc7")
 	)
 	(wire
 		(pts
-			(xy 173.99 55.88) (xy 139.7 55.88)
+			(xy 114.3 149.86) (xy 127 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9138a38b-3c99-4957-b15c-66a711166694")
+		(uuid "6e97209c-eb39-4fdc-9bd1-e3468052147b")
 	)
 	(wire
 		(pts
-			(xy 173.99 30.48) (xy 175.26 30.48)
+			(xy 114.3 111.76) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92eb8aff-fe99-447e-b12e-13f97df08d37")
+		(uuid "70866ea9-e1cf-41d4-bc23-67a60389e1d9")
 	)
 	(wire
 		(pts
-			(xy 105.41 111.76) (xy 109.22 111.76)
+			(xy 114.3 35.56) (xy 127 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "954f17b7-4146-4d96-80e8-d0535a9b386c")
+		(uuid "751ec86d-5fa3-4e6f-a7ff-ccd8da51ce84")
 	)
 	(wire
 		(pts
-			(xy 93.98 106.68) (xy 105.41 106.68)
+			(xy 73.66 101.6) (xy 73.66 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "989c2e92-ea4b-4ecb-a871-827228f6c1a4")
+		(uuid "76722edf-7b35-4412-b959-646535627934")
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 105.41 101.6)
+			(xy 114.3 58.42) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3ff8aab-927b-4121-9bcf-dccb696f2d52")
+		(uuid "7d31ee2e-3685-4f3f-923a-5ad34c9865d7")
 	)
 	(wire
 		(pts
-			(xy 182.88 48.26) (xy 185.42 48.26)
+			(xy 114.3 30.48) (xy 127 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b07ecd9f-24c2-439b-86a3-31c1aa7dec56")
+		(uuid "9e725eff-914c-4ed9-95ff-01fa867069c3")
 	)
 	(wire
 		(pts
-			(xy 190.5 43.18) (xy 190.5 44.45)
+			(xy 114.3 106.68) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0ec60fd-ee93-4c3f-9bcc-356196feda61")
+		(uuid "9fdf5c9b-f77a-494a-954d-4208af87c1bf")
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 185.42 44.45)
+			(xy 114.3 73.66) (xy 127 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5e6ceb1-8c34-4a0d-9a0a-1f30ea1123b6")
+		(uuid "a0117b48-c424-41b0-b67e-5cd88008b409")
 	)
 	(wire
 		(pts
-			(xy 101.6 60.96) (xy 109.22 60.96)
+			(xy 68.58 30.48) (xy 78.74 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7a8989f-282c-4f74-9f25-42f2fd8a3702")
+		(uuid "a0b8962c-284d-4e48-ba44-6943f4f6b556")
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 109.22 137.16)
+			(xy 114.3 134.62) (xy 127 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e590e945-e2f4-4e33-878a-8f43e56d4fb7")
+		(uuid "ac17db2c-e0b3-40ad-b8ab-2789d8af0f59")
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 63.5 101.6)
+			(xy 114.3 144.78) (xy 127 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0970aa-4d1a-448e-a9d1-33ad88cdca1a")
+	)
+	(wire
+		(pts
+			(xy 114.3 139.7) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0787e6c-934b-49b3-8c64-91aebbb4aa14")
+	)
+	(wire
+		(pts
+			(xy 114.3 25.4) (xy 127 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea1200b-54e3-4166-b80e-0512ed205d98")
+	)
+	(wire
+		(pts
+			(xy 30.48 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1545,9 +934,19 @@
 		)
 		(uuid "f8023f61-fa08-4790-86c4-8187442cb3f1")
 	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a0f319-7f0d-4384-a397-556633d0552c")
+	)
 	(symbol
 		(lib_id "phased-array:WP4U+")
-		(at 109.22 109.22 0)
+		(at 83.82 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1556,8 +955,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29a56270-b930-404c-b7a6-69146c008464")
-		(property "Reference" "IC2"
-			(at 115.062 102.108 0)
+		(property "Reference" "U4"
+			(at 89.662 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1567,7 +966,7 @@
 			)
 		)
 		(property "Value" "WP4U+"
-			(at 116.332 103.378 0)
+			(at 90.932 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1577,7 +976,7 @@
 			)
 		)
 		(property "Footprint" "QFN51P300X300X89-13N"
-			(at 143.51 191.44 0)
+			(at 118.11 181.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1589,7 +988,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/WP4U+.pdf"
-			(at 143.51 291.44 0)
+			(at 118.11 281.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1601,7 +1000,7 @@
 			)
 		)
 		(property "Description" "Signal Conditioning PWR SPLTR CMBD / SM / RoHS"
-			(at 127 98.298 0)
+			(at 101.6 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1612,7 +1011,7 @@
 			)
 		)
 		(property "Height" "0.89"
-			(at 143.51 491.44 0)
+			(at 118.11 481.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1624,7 +1023,7 @@
 			)
 		)
 		(property "Mouser Part Number" "139-WP4U"
-			(at 143.51 591.44 0)
+			(at 118.11 581.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1636,7 +1035,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/WP4U%2b?qs=xZ%2FP%252Ba9zWqbP884g%2FhJnzg%3D%3D"
-			(at 143.51 691.44 0)
+			(at 118.11 681.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1648,7 +1047,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Mini-Circuits"
-			(at 143.51 791.44 0)
+			(at 118.11 781.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1660,7 +1059,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WP4U+"
-			(at 143.51 891.44 0)
+			(at 118.11 881.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1713,7 +1112,7 @@
 		(instances
 			(project "phased-array-controller-v1"
 				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "IC2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1721,7 +1120,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 91.44 0)
+		(at 83.82 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1731,7 +1130,7 @@
 		(dnp no)
 		(uuid "30fe8dff-cf62-4225-b2cb-3a8dcd6243b8")
 		(property "Reference" "#PWR06"
-			(at 109.22 97.79 0)
+			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 94.996 0)
+			(at 83.82 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1752,7 +1151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 91.44 0)
+			(at 83.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +1162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 91.44 0)
+			(at 83.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +1173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 91.44 0)
+			(at 83.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,7 +1197,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 142.24 0)
+		(at 83.82 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1808,7 +1207,7 @@
 		(dnp no)
 		(uuid "34dec8ba-fe98-4382-ab0a-220d8581c08e")
 		(property "Reference" "#PWR04"
-			(at 109.22 148.59 0)
+			(at 83.82 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,7 +1218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 145.796 0)
+			(at 83.82 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1829,7 +1228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 142.24 0)
+			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1840,7 +1239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 142.24 0)
+			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1851,7 +1250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 142.24 0)
+			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1874,263 +1273,8 @@
 		)
 	)
 	(symbol
-		(lib_id "phased-array:SKY13330-397LF")
-		(at 172.72 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b8f910e-1443-4a35-933d-2380bd4684cd")
-		(property "Reference" "U1"
-			(at 178.562 23.368 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "SKY13330-397LF"
-			(at 183.134 24.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "SKY13330397LF"
-			(at 201.93 122.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/601-700/SKY13330_397LF_201407E.pdf"
-			(at 201.93 222.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RF Switch ICs .1-6.0GHz SP2T IL .6dB @ 6GHz"
-			(at 186.69 20.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 201.93 422.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "873-SKY13330-397LF"
-			(at 201.93 522.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SKY13330-397LF?qs=WMHGlxXAKT9Ek7RwoEie1g%3D%3D"
-			(at 201.93 622.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Skyworks"
-			(at 201.93 722.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SKY13330-397LF"
-			(at 201.93 822.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "12"
-			(uuid "f61f64ba-61b2-4f05-9dc4-1c63fa2cdf0f")
-		)
-		(pin "2"
-			(uuid "4862410c-f46f-4599-9466-d99b3af4220d")
-		)
-		(pin "8"
-			(uuid "11b30b5f-4c47-41cd-b8ad-1c11e4d58b56")
-		)
-		(pin "4"
-			(uuid "18e89c9d-a183-45b1-91b8-959d2f067cf7")
-		)
-		(pin "10"
-			(uuid "0a9ec77b-2bb2-434e-8007-011ebb9185e6")
-		)
-		(pin "9"
-			(uuid "686e8bed-3e9f-4cd8-96ed-d7502095bdcf")
-		)
-		(pin "3"
-			(uuid "f36e7ae3-236d-4750-b0ac-7c0ca0cd7688")
-		)
-		(pin "5"
-			(uuid "4ad95411-ce70-472c-8e96-8149dedcfcb2")
-		)
-		(pin "6"
-			(uuid "d3cb9730-66fb-4b4c-ab52-71e896bc66b6")
-		)
-		(pin "11"
-			(uuid "816b1963-03aa-4530-86ff-a6ccd08b1c21")
-		)
-		(pin "13"
-			(uuid "aaf1dd66-cc18-4f4e-88ca-55e5a1424be9")
-		)
-		(pin "7"
-			(uuid "b58ae789-44ce-4c53-93e9-338f765aa8bb")
-		)
-		(pin "1"
-			(uuid "f2ab296e-7ded-4293-89c5-568943e30aaa")
-		)
-		(instances
-			(project "phased-array-controller-v1"
-				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 187.96 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "577c178d-9a2d-4136-b17c-fabbe2416a6c")
-		(property "Reference" "R2"
-			(at 188.722 45.974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12k"
-			(at 188.976 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 187.96 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 187.96 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4351ba78-8623-4ce2-b8f3-14260a42ada0")
-		)
-		(pin "2"
-			(uuid "52578bce-ac1c-4bbe-b34b-344202d5b55c")
-		)
-		(instances
-			(project "phased-array-controller-v1"
-				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "phased-array:WP4U+")
-		(at 109.22 58.42 0)
+		(at 83.82 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2139,8 +1283,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5972bbb5-fc56-466d-af7f-33c64d881d65")
-		(property "Reference" "IC4"
-			(at 115.062 51.308 0)
+		(property "Reference" "U2"
+			(at 89.662 15.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2150,7 +1294,7 @@
 			)
 		)
 		(property "Value" "WP4U+"
-			(at 116.332 52.578 0)
+			(at 90.932 17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2160,7 +1304,7 @@
 			)
 		)
 		(property "Footprint" "QFN51P300X300X89-13N"
-			(at 143.51 140.64 0)
+			(at 118.11 105.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2172,7 +1316,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/WP4U+.pdf"
-			(at 143.51 240.64 0)
+			(at 118.11 205.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +1328,7 @@
 			)
 		)
 		(property "Description" "Signal Conditioning PWR SPLTR CMBD / SM / RoHS"
-			(at 127 47.498 0)
+			(at 101.6 11.938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2195,7 +1339,7 @@
 			)
 		)
 		(property "Height" "0.89"
-			(at 143.51 440.64 0)
+			(at 118.11 405.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +1351,7 @@
 			)
 		)
 		(property "Mouser Part Number" "139-WP4U"
-			(at 143.51 540.64 0)
+			(at 118.11 505.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +1363,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/WP4U%2b?qs=xZ%2FP%252Ba9zWqbP884g%2FhJnzg%3D%3D"
-			(at 143.51 640.64 0)
+			(at 118.11 605.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,7 +1375,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Mini-Circuits"
-			(at 143.51 740.64 0)
+			(at 118.11 705.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2243,7 +1387,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WP4U+"
-			(at 143.51 840.64 0)
+			(at 118.11 805.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2296,7 +1440,7 @@
 		(instances
 			(project "phased-array-controller-v1"
 				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "IC4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2304,84 +1448,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a5b1cb9-9599-4ed6-a5de-3850ce569390")
-		(property "Reference" "#PWR02"
-			(at 190.5 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.706 47.752 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c36e4e0e-acd8-470d-ae56-c5bc65a92c11")
-		)
-		(instances
-			(project "phased-array-controller-v1"
-				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 106.68 0)
+		(at 38.1 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2391,7 +1458,7 @@
 		(dnp no)
 		(uuid "60be7964-521e-4e31-a2a0-94c31a39bd82")
 		(property "Reference" "#PWR03"
-			(at 63.5 113.03 0)
+			(at 38.1 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2402,7 +1469,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 110.236 0)
+			(at 38.1 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2412,7 +1479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 106.68 0)
+			(at 38.1 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +1490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 106.68 0)
+			(at 38.1 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +1501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 106.68 0)
+			(at 38.1 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2457,89 +1524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 182.88 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75f841de-272b-4e47-ba9d-1da40c4a1885")
-		(property "Reference" "R1"
-			(at 183.642 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 182.88 46.736 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 182.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbf51e08-b6f9-411a-9548-90dfc1602c14")
-		)
-		(pin "2"
-			(uuid "e5d22940-a6a9-428b-b678-fc50d6ecc2dc")
-		)
-		(instances
-			(project "phased-array-controller-v1"
-				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 50.8 106.68 0)
+		(at 25.4 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2549,7 +1535,7 @@
 		(dnp no)
 		(uuid "76528d41-d668-4c36-971f-6ed3a38930d2")
 		(property "Reference" "#PWR01"
-			(at 50.8 113.03 0)
+			(at 25.4 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +1546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 110.236 0)
+			(at 25.4 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2570,7 +1556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 106.68 0)
+			(at 25.4 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2581,7 +1567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 106.68 0)
+			(at 25.4 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +1578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 106.68 0)
+			(at 25.4 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,7 +1602,7 @@
 	)
 	(symbol
 		(lib_id "phased-array:WP4U+")
-		(at 109.22 83.82 0)
+		(at 83.82 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2625,8 +1611,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "787057de-b779-4665-bf8e-702b870c1087")
-		(property "Reference" "IC3"
-			(at 115.062 76.708 0)
+		(property "Reference" "U3"
+			(at 89.662 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2636,7 +1622,7 @@
 			)
 		)
 		(property "Value" "WP4U+"
-			(at 116.332 77.978 0)
+			(at 90.932 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2646,7 +1632,7 @@
 			)
 		)
 		(property "Footprint" "QFN51P300X300X89-13N"
-			(at 143.51 166.04 0)
+			(at 118.11 143.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +1644,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/WP4U+.pdf"
-			(at 143.51 266.04 0)
+			(at 118.11 243.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2670,7 +1656,7 @@
 			)
 		)
 		(property "Description" "Signal Conditioning PWR SPLTR CMBD / SM / RoHS"
-			(at 127 72.898 0)
+			(at 101.6 50.038 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,7 +1667,7 @@
 			)
 		)
 		(property "Height" "0.89"
-			(at 143.51 466.04 0)
+			(at 118.11 443.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +1679,7 @@
 			)
 		)
 		(property "Mouser Part Number" "139-WP4U"
-			(at 143.51 566.04 0)
+			(at 118.11 543.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +1691,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/WP4U%2b?qs=xZ%2FP%252Ba9zWqbP884g%2FhJnzg%3D%3D"
-			(at 143.51 666.04 0)
+			(at 118.11 643.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2717,7 +1703,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Mini-Circuits"
-			(at 143.51 766.04 0)
+			(at 118.11 743.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2729,7 +1715,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WP4U+"
-			(at 143.51 866.04 0)
+			(at 118.11 843.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,7 +1768,181 @@
 		(instances
 			(project "phased-array-controller-v1"
 				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "IC3")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "phased-array:WP4U+")
+		(at 38.1 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96e4bb3f-58c4-46c6-aab4-901d9aa2d3ce")
+		(property "Reference" "U1"
+			(at 43.942 20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "WP4U+"
+			(at 45.212 22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "QFN51P300X300X89-13N"
+			(at 72.39 110.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/WP4U+.pdf"
+			(at 72.39 210.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Signal Conditioning PWR SPLTR CMBD / SM / RoHS"
+			(at 55.88 17.018 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.89"
+			(at 72.39 410.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "139-WP4U"
+			(at 72.39 510.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/WP4U%2b?qs=xZ%2FP%252Ba9zWqbP884g%2FhJnzg%3D%3D"
+			(at 72.39 610.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Mini-Circuits"
+			(at 72.39 710.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "WP4U+"
+			(at 72.39 810.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "701da7dd-bc6d-464b-b3a9-4e0d937bb458")
+		)
+		(pin "2"
+			(uuid "c875009d-57ea-454b-9a59-24e5c609c4d2")
+		)
+		(pin "1"
+			(uuid "839134fc-6394-4f26-957e-a79c8e714ef5")
+		)
+		(pin "3"
+			(uuid "cc2bbbd1-f2ee-48e9-a443-0fc70cea305b")
+		)
+		(pin "4"
+			(uuid "939a8faa-de39-4d34-8801-53e389bf530f")
+		)
+		(pin "5"
+			(uuid "ccba7dbb-932b-465e-a2f4-7b3bb3d779c2")
+		)
+		(pin "6"
+			(uuid "cc96e798-0173-4d3a-b2bc-2fcfc2365912")
+		)
+		(pin "7"
+			(uuid "1aea54af-714a-42bb-a567-a2738fc1a1a6")
+		)
+		(pin "13"
+			(uuid "158c2591-faea-4318-a78b-9b24809172fd")
+		)
+		(pin "10"
+			(uuid "d2ef0659-7e20-40a9-92ea-6219e8921ced")
+		)
+		(pin "11"
+			(uuid "b782f630-94f4-4d30-8dae-8b5d57df8c4d")
+		)
+		(pin "9"
+			(uuid "96a8db5e-af3e-4915-82cb-96984ab5aa2d")
+		)
+		(pin "12"
+			(uuid "d97f0ec2-b374-49b0-866a-05cd1eda88ab")
+		)
+		(instances
+			(project "phased-array-controller-v1"
+				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2790,7 +1950,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 116.84 0)
+		(at 83.82 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2800,7 +1960,7 @@
 		(dnp no)
 		(uuid "a61acc81-0d4b-46e0-a960-827c38aeb851")
 		(property "Reference" "#PWR05"
-			(at 109.22 123.19 0)
+			(at 83.82 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +1971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 120.396 0)
+			(at 83.82 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2821,7 +1981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 116.84 0)
+			(at 83.82 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2832,7 +1992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 116.84 0)
+			(at 83.82 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2843,7 +2003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 116.84 0)
+			(at 83.82 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +2027,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 66.04 0)
+		(at 83.82 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2877,7 +2037,7 @@
 		(dnp no)
 		(uuid "c9c22ec8-95a7-405b-b7e3-0cb8631db45d")
 		(property "Reference" "#PWR07"
-			(at 109.22 72.39 0)
+			(at 83.82 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2888,7 +2048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 69.596 0)
+			(at 83.82 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2898,7 +2058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 66.04 0)
+			(at 83.82 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 66.04 0)
+			(at 83.82 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,7 +2080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 66.04 0)
+			(at 83.82 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,7 +2104,7 @@
 	)
 	(symbol
 		(lib_id "phased-array:WP4U+")
-		(at 109.22 134.62 0)
+		(at 83.82 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2953,8 +2113,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d762e57f-f9c2-4046-b597-4aab7374e6ff")
-		(property "Reference" "IC5"
-			(at 115.062 127.508 0)
+		(property "Reference" "U5"
+			(at 89.662 130.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,7 +2124,7 @@
 			)
 		)
 		(property "Value" "WP4U+"
-			(at 116.332 128.778 0)
+			(at 90.932 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2974,7 +2134,7 @@
 			)
 		)
 		(property "Footprint" "QFN51P300X300X89-13N"
-			(at 143.51 216.84 0)
+			(at 118.11 219.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2986,7 +2146,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/WP4U+.pdf"
-			(at 143.51 316.84 0)
+			(at 118.11 319.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,7 +2158,7 @@
 			)
 		)
 		(property "Description" "Signal Conditioning PWR SPLTR CMBD / SM / RoHS"
-			(at 127 123.698 0)
+			(at 101.6 126.238 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +2169,7 @@
 			)
 		)
 		(property "Height" "0.89"
-			(at 143.51 516.84 0)
+			(at 118.11 519.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,7 +2181,7 @@
 			)
 		)
 		(property "Mouser Part Number" "139-WP4U"
-			(at 143.51 616.84 0)
+			(at 118.11 619.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,7 +2193,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/WP4U%2b?qs=xZ%2FP%252Ba9zWqbP884g%2FhJnzg%3D%3D"
-			(at 143.51 716.84 0)
+			(at 118.11 719.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3045,7 +2205,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Mini-Circuits"
-			(at 143.51 816.84 0)
+			(at 118.11 819.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3057,7 +2217,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WP4U+"
-			(at 143.51 916.84 0)
+			(at 118.11 919.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3110,7 +2270,7 @@
 		(instances
 			(project "phased-array-controller-v1"
 				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "IC5")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3118,7 +2278,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 50.8 101.6 0)
+		(at 25.4 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3130,7 +2290,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8e469ae-118d-4672-b620-4b5c3454b673")
 		(property "Reference" "J1"
-			(at 51.1174 95.25 0)
+			(at 25.7174 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3140,7 +2300,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 51.1174 97.79 0)
+			(at 25.7174 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3150,7 +2310,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
-			(at 50.8 101.6 0)
+			(at 25.4 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 101.6 0)
+			(at 25.4 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,7 +2332,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 50.8 101.6 0)
+			(at 25.4 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,40 +2357,35 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "phased-array:WP4U+")
-		(at 63.5 99.06 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 127 17.78)
+		(size 12.7 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6c4e801-7298-445c-ad62-bbb7e5a7b546")
-		(property "Reference" "IC1"
-			(at 71.882 89.916 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "296282a4-5b6b-4ece-b0d0-55594642cd1a")
+		(property "Sheetname" "Element1-4"
+			(at 127 17.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "WP4U+"
-			(at 71.882 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "QFN51P300X300X89-13N"
-			(at 97.79 181.28 0)
+		(property "Sheetfile" "E1-4.kicad_sch"
+			(at 127 52.6546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3241,133 +2396,511 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/WP4U+.pdf"
-			(at 97.79 281.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "E1" input
+			(at 127 20.32 180)
+			(uuid "7975152a-c4e1-4c0b-b6c6-9ac3a46ce12d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
-		(property "Description" "Signal Conditioning PWR SPLTR CMBD / SM / RoHS"
-			(at 81.28 88.138 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "E2" input
+			(at 127 25.4 180)
+			(uuid "13425238-ed91-411a-9e65-d01e2a566e78")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Height" "0.89"
-			(at 97.79 481.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "E3" input
+			(at 127 30.48 180)
+			(uuid "2fc97e2d-598b-49d5-89b6-57da6a258735")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
-		(property "Mouser Part Number" "139-WP4U"
-			(at 97.79 581.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "E4" input
+			(at 127 35.56 180)
+			(uuid "e32b5ac1-3ea3-4664-891f-dbdacbe54f34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/WP4U%2b?qs=xZ%2FP%252Ba9zWqbP884g%2FhJnzg%3D%3D"
-			(at 97.79 681.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "E1-0" input
+			(at 139.7 20.32 0)
+			(uuid "000b790d-9efe-46d5-af9a-0110b1912387")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right)
 			)
 		)
-		(property "Manufacturer_Name" "Mini-Circuits"
-			(at 97.79 781.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "E1-1" input
+			(at 139.7 22.86 0)
+			(uuid "86d937c4-53fc-4545-8d58-67ca47687bd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right)
 			)
 		)
-		(property "Manufacturer_Part_Number" "WP4U+"
-			(at 97.79 881.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "E2-0" input
+			(at 139.7 25.4 0)
+			(uuid "739949e0-d81e-4162-9bf2-032f5fa420df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right)
 			)
 		)
-		(pin "8"
-			(uuid "7aac8ce5-a635-4d14-9635-2483641d7759")
+		(pin "E2-1" input
+			(at 139.7 27.94 0)
+			(uuid "9a443767-3f35-4e14-99c5-94de3befd523")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "2"
-			(uuid "1ed54899-1e19-4a45-bff9-8345284baaab")
+		(pin "E3-0" input
+			(at 139.7 30.48 0)
+			(uuid "88e4d861-a8f4-4510-8bf7-5963d3bb4c78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "1"
-			(uuid "b264903e-55f1-490c-97bd-0cc96e657402")
+		(pin "E3-1" input
+			(at 139.7 33.02 0)
+			(uuid "db329d84-dd4f-4d3e-9e2e-5c1952b73207")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "3"
-			(uuid "42f6c536-af03-47a0-8b3e-e153b6187869")
+		(pin "E4-0" input
+			(at 139.7 35.56 0)
+			(uuid "5b624fd0-1059-428f-a962-8915c3a8533d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "4"
-			(uuid "73dbef79-b0c5-4ddd-bb8c-d057ff20c32f")
-		)
-		(pin "5"
-			(uuid "d256d85d-1eb9-4c63-a001-ed5967dc991e")
-		)
-		(pin "6"
-			(uuid "630aef5c-5ab8-4caa-baa2-ae5f988b79e6")
-		)
-		(pin "7"
-			(uuid "f6e3b174-1735-4d64-b613-ff9f41bf0515")
-		)
-		(pin "13"
-			(uuid "edc377c0-d64c-4936-8b6d-279518e5eff0")
-		)
-		(pin "10"
-			(uuid "167b59d1-656d-4aaf-945d-a454b0cad35d")
-		)
-		(pin "11"
-			(uuid "533634dc-21b2-4d9f-8856-98e410494806")
-		)
-		(pin "9"
-			(uuid "b5e9b517-81d1-409a-be83-3835d168aa2e")
-		)
-		(pin "12"
-			(uuid "7b02ca21-b7d6-4d87-872d-d9785826db03")
+		(pin "E4-1" input
+			(at 139.7 38.1 0)
+			(uuid "773bf4db-990c-4a75-a9db-71a1dac27eec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "phased-array-controller-v1"
 				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
-					(reference "IC1")
-					(unit 1)
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 55.88)
+		(size 12.7 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "517a5d6d-0922-4d01-aa95-9ea81b10c009")
+		(property "Sheetname" "Element5-8"
+			(at 127 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E5-8.kicad_sch"
+			(at 127 90.7546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "E5" input
+			(at 127 58.42 180)
+			(uuid "fdc93bbb-7147-4c7a-89d1-205b0777c282")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E6" input
+			(at 127 63.5 180)
+			(uuid "d4c87f73-9640-4f88-94f5-d8917521c44f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E7" input
+			(at 127 68.58 180)
+			(uuid "8cb3b6fd-dd36-45ee-a2e7-04a415cc8c99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E8" input
+			(at 127 73.66 180)
+			(uuid "df6a73ec-f94e-49ca-8bd7-1f00fa692de6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E5-0" input
+			(at 139.7 58.42 0)
+			(uuid "bdf21158-2110-49c3-b336-a2b34c91097d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E5-1" input
+			(at 139.7 60.96 0)
+			(uuid "df909545-9d7c-43c4-aeea-4831ef7a34bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E6-0" input
+			(at 139.7 63.5 0)
+			(uuid "7c061e30-0279-4aa4-9b85-a37abed68828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E6-1" input
+			(at 139.7 66.04 0)
+			(uuid "67102608-5561-4ed7-b9bd-4089d6b5a921")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E7-0" input
+			(at 139.7 68.58 0)
+			(uuid "dbd1e5a5-ddda-4a1e-b62c-66142b21f100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E7-1" input
+			(at 139.7 71.12 0)
+			(uuid "37ec8a16-ba7e-46ae-9661-b8b872de8376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E8-0" input
+			(at 139.7 73.66 0)
+			(uuid "6798b976-205f-4d44-8f82-4d12bd29a8fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E8-1" input
+			(at 139.7 76.2 0)
+			(uuid "e156686b-ab58-4981-978d-56ce52c4a57b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E5-EN" input
+			(at 139.7 80.01 0)
+			(uuid "ef2d43f2-6bc2-4c93-8526-f158509b6972")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E6-EN" input
+			(at 139.7 82.55 0)
+			(uuid "a4dbd2fd-6449-4619-a868-430d7d756262")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E7-EN" input
+			(at 139.7 85.09 0)
+			(uuid "0a73ef29-7322-4314-89cc-d1a32720a74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E8-EN" input
+			(at 139.7 87.63 0)
+			(uuid "44bd24f9-da02-41d4-a13a-35cb4176eab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "phased-array-controller-v1"
+				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 93.98)
+		(size 12.7 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b225e93a-be6d-48bf-b71e-bf48867c8b9d")
+		(property "Sheetname" "Element9-12"
+			(at 127 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E9-12.kicad_sch"
+			(at 127 128.8546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "E9" input
+			(at 127 96.52 180)
+			(uuid "bf96b131-8fec-4bd5-acef-df2320d20658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E10" input
+			(at 127 101.6 180)
+			(uuid "45939e82-e199-4431-b124-bd2cb396f44c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E11" input
+			(at 127 106.68 180)
+			(uuid "e293f6eb-9d2e-4fc1-91a3-2897e49fca0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E12" input
+			(at 127 111.76 180)
+			(uuid "f7ae690c-547f-4a8d-a72a-03ba7a8a5b23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "phased-array-controller-v1"
+				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 132.08)
+		(size 12.7 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e6faa3f3-f542-4323-ba03-b524edf4a070")
+		(property "Sheetname" "Element13-16"
+			(at 127 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E13-16.kicad_sch"
+			(at 127 165.6846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "E13" input
+			(at 127 134.62 180)
+			(uuid "71e2a27e-9a21-4993-bf2b-63a463dd3974")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E14" input
+			(at 127 139.7 180)
+			(uuid "3c8ba798-c28a-4dae-8133-0d7cbd23d049")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E15" input
+			(at 127 144.78 180)
+			(uuid "de8b7e95-cecb-4572-a665-656d35fe531c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E16" input
+			(at 127 149.86 180)
+			(uuid "07d301d1-7259-41aa-9045-c539969b7dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "phased-array-controller-v1"
+				(path "/05e103ed-0a35-44f1-8842-296348e25e72"
+					(page "5")
 				)
 			)
 		)
